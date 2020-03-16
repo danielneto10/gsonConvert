@@ -84,7 +84,6 @@ public class ControllerFXMLPrincipal{
 					criarJson(novoDir);
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
-					
 					e.printStackTrace();
 				}
         }
@@ -134,7 +133,7 @@ public class ControllerFXMLPrincipal{
 					count++;
 				}
 			}
-			escreverArq(jsonArray);
+			//escreverArq(jsonArray);
 		}
 		catch (IOException e) {
 			// TODO: handle exception
